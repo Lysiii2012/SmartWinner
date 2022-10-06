@@ -999,7 +999,7 @@ footer{
     padding: 7px 5.5px;
 }
 .footer_social .message_mob svg{
-    padding: 4.5px 4px;
+    padding: 4px;
 }
 .item1::before{
     background: url('../img/css_sprites.png') -203px -128px;
