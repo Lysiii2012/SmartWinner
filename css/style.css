@@ -147,7 +147,6 @@ html *{
 }
 .logo{
     display: inline-block;
-    margin-right: 29px;
 }
 .header_input p{
     font-size: 14px;
@@ -303,7 +302,7 @@ nav{
     margin: 0;
 }
 .banner{
-    margin:26px 0 14px;
+    margin:26px 0 2px;
 }
 .banner img{
     width: 100%;
@@ -322,7 +321,7 @@ nav{
     position: relative;
     border: 1px solid #E0E0E0;
     border-radius: 8px;
-    margin: 11px 0 13px;
+    margin: 11px 0 1px;
     width:343px;
     box-sizing:border-box;
 }
@@ -438,13 +437,13 @@ h1{
 .mill img{
     margin:24px 62px 34px 36px;
     position: relative;
-    top: -3px;
+    top: -6px;
     left: 5px;
 }
 .ball img{
     margin: 12px 55px 4px 44px;
     position: relative;
-    top: -10px;
+    top: -17px;
     left: 0;
 }
 h4{
@@ -695,9 +694,12 @@ h6{
     box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
     color:#FFFFFF;
 }
+.total_priz{
+    margin-bottom: 17px;
+}
 .our_winners>div{
     max-width: 380px;
-    margin: 15px auto 0;
+    margin: 12px auto 9px;
 }
 .footer_win ul{
     display: flex;
@@ -736,6 +738,9 @@ section{
     display: flex;
     margin-left: 39px;
 }
+.links .nav_footer_dec{
+    display: none;
+}
 .win span{
     display: block;
 }
@@ -743,6 +748,13 @@ section{
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+.info_smart_win h3{
+    font-size: 14px;
+    line-height: 20px;
+}
+.info_smart_win{
+    margin: 0 0 12px;
 }
 .our_winners{
     height: 560px;
@@ -783,7 +795,6 @@ section{
 .our_winners .icon_winner{
     padding: 14px 0 5px 105px;
     position: relative;
-    /*margin: 27px 0 -13px;*/
     border: 1px solid #E0E0E0;
     border-radius: 8px;
 }
@@ -874,13 +885,13 @@ section{
     border-radius: 2px;
     position: absolute;
     top: 32px;
-    right: 26px;
+    right: 28px;
     background: #5F5F5F;
     transform: rotate(-45deg);
 }
 footer{
     background:no-repeat url(../img/untitled.png), linear-gradient(0deg, rgba(224, 224, 224, 0.47) 0%, rgba(225, 225, 225, 0.16) 20.75%, rgba(255, 254, 254, 0.26) 84.14%, #FFFFFF 126.52%);
-    padding: 102px 31px 32px 16px;
+    padding: 109px 31px 32px 16px;
 }
 .footer_up svg{
     padding:5px;
@@ -928,10 +939,10 @@ footer{
     margin: 0 10px 0 0;
 }
 .footer_content h3{
-    margin: 11px 0 0;
+    margin: 6px 0 0;
 }
 .links{
-    margin: 0 0 30px;
+    margin: 0 0 12px;
 }
 .links h3{
     margin-bottom: 10px;
@@ -941,17 +952,15 @@ footer{
     text-decoration: none;
     margin: 0 0 5px;
     font-size: 14px;
-    width: 164px;
     line-height: 21px;
     color:#000000;
 }
 .links ul{
-    height: 140px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.links li:last-child a{
+.program{
     font-weight: 700;
 }
 .info_payment{
@@ -1025,6 +1034,25 @@ footer{
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 0 13px;
+}
+.nav_footer_mob a{
+    margin: 0 0 5px;
+    display: inline-block;
+}
+.links .nav_footer_mob{
+    display: flex;
+    padding-top: 2px;
+}
+.nav_footer_mob ul{
+    display: block;
+    margin: 0 13px 0 0;
+}
+.nav_footer_mob{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_footer_mob li{
+    font-size: 0;
 }
 .security div{
     display: flex;
@@ -1231,7 +1259,11 @@ footer{
         margin: 0;
     }
     .soc_footer{
-        margin-bottom:31px ;
+        margin-bottom:35px ;
+    }
+    .info_smart_win p+p{
+        margin-top: 5px;
+        line-height: 20px;
     }
     .methods h3{
         margin-bottom: 10px;
@@ -1283,9 +1315,27 @@ footer{
         font-size: 12px;
         line-height: 120%;
     }
+    .info_smart_win p+p{
+        font-size: 13px;
+    }
     .conteiner_questions h2{
         font-size: 24px;
         line-height: 36px;
+    }
+    .links .nav_footer_dec{
+        display: block;
+    }
+    .links .nav_footer_mob{
+        display: none;
+    }
+    .our_winners>div{
+        margin: 15px auto 0;
+    }
+    .info_smart_win h3{
+        font-size: 16px;
+    }
+    .info_smart_win{
+        margin: 0;
     }
 }
 @media screen and (min-width:1100px) {
